@@ -2,10 +2,10 @@
 function main() {
 
 	//automatic update of the copyright statement to the current year
-	document.addEventListener('DOMContentLoaded', copyright, false);
+	copyright();
 
 	//allow the opening of individual images on a full screen display
-	window.onload = displayImage;
+	displayImage();
 }
 
 function copyright() {
