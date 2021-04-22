@@ -521,7 +521,8 @@ label {
 	display: block;
 	padding: 0.5em;
 	border: none;
-	border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+		border-radius: 0.5em;
 }
 
 textarea,
