@@ -9,9 +9,9 @@ function main() {
 }
 
 function copyright() {
-	let thisDate = new Date();
-	let thisYear = thisDate.getFullYear();
-	let copyright = document.getElementById('copyright');
+	const thisDate = new Date();
+	const thisYear = thisDate.getFullYear();
+	const copyright = document.getElementById('copyright');
 	let copyrightMessage = copyright.textContent;
 	copyrightMessage += ' ' + thisYear;
 	copyright.textContent = copyrightMessage;
