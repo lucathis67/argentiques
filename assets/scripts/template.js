@@ -13,7 +13,7 @@ function copyright() {
 	const thisYear = thisDate.getFullYear();
 	const copyright = document.getElementById('copyright');
 	let copyrightMessage = copyright.textContent;
-	copyrightMessage += ' ' + thisYear;
+	copyrightMessage += ` ${thisYear}`;
 	copyright.textContent = copyrightMessage;
 }
 
