@@ -4,7 +4,12 @@
 =================================*/
 
 html {
-	font-size: 16px;
+	font-size: 100%;
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
 }
 
 body, header, main, footer {
@@ -126,12 +131,25 @@ a, a:visited {
 #nav {
 	font-family: 'Spectral', Georgia, serif;
     width: 100%;
-    background: snow;
+    background-color: snow;
     position: fixed;
     top: 0;
     right: 0;
-    z-index: 30;
+    z-index: 50;
     box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 1);
+}
+
+#nav:after {
+	background-image: url(../images/noise.jpg);
+	content: "";
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 40;
+	opacity: 0.08;
+	pointer-events: none;
 }
 
 #nav > label {
@@ -202,11 +220,17 @@ a, a:visited {
 	#nav {
 		position: static;
 		background-color: rgba(255, 255, 255, 0);
+		background-image: none;
 		width: 100%;
 		font-size: 1em;
 		border-top: 2px solid black;
 		border-bottom: 1px solid black;
 		box-shadow: none;
+		z-index: 30;
+	}
+
+	#nav:after {
+		display: none;
 	}
 
 	#navlinks {
@@ -262,7 +286,7 @@ a, a:visited {
 	left: 1.2em;
 	color: black;
 	padding-top: 0.7em;
-	z-index: 35;
+	z-index: 55;
 }
 
 .vswitch a, .vswitch a:visited {
@@ -288,6 +312,7 @@ a, a:visited {
 		height: 8rem;
 		padding-top: 0;
 		border-right: 0;
+		z-index: 35;
 	}
 
 	.hswitch:hover, .hswitch:focus {
@@ -297,7 +322,7 @@ a, a:visited {
 	.vswitch {
 		color: white;
 		display: block;
-		width: 50%;
+		width: 60%;
 		text-align: center;
 		background-color: rgba(139, 0, 0, 0.7)/*rgba(23, 22, 22, 1)*/;
 		padding: 0 0.5em;
