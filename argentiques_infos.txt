@@ -1,0 +1,27 @@
+About the Argentiques Website
+
+This is a blog site to present my photography.
+
+There are 5 pages: 
+- one home page displaying the latest blog article.
+- one about page presenting the website and its author
+- one galleries page containing the photography portfolio
+- one blog page containing all the blog articles
+- one contact page to send an email 
+
+
+RESPONSIVE FEATURES:
+
+There are two fundamental views, the mobile and the large screen view which includes desktop and tablets.
+
+The main feature specific to the mobile view is the navigation menu, opening and closing it is controlled by a hamburger button. This button is located inside a sticky container which remains positioned at the top of the screen as the user scrolls down pages.
+Else, in mobile view, every content always occupy 100% of the body width. 
+
+In large screen wiew, the navigation bar is detached from the sticky container and flows with the rest of the body, just beneath the site logo. Content becomes split in columns on the about and blog pages. Finally, as the screen becomes wide enough, the form in the contact page moves over the hero image, floating right, allowing both to visible without having to scroll. 
+
+Additional info about language options:
+
+The website is bilingual french/english and each page has a sister page in the other language.
+Each page displays a language switcher button which leads to the sister page of the current one.
+The pages are sorted into language specific subfolders and so the links in the main navigation bar always lead to files in the current language, unless of course the user clicks on the language switcher button, leading to the other subfolder. 
+
