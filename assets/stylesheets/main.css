@@ -8,7 +8,9 @@ html {
 	box-sizing: border-box;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
 	box-sizing: inherit;
 }
 
@@ -53,6 +55,17 @@ body::after {
 a, a:visited {
 	text-decoration: none;
 	color: black;
+}
+
+.body {
+	min-height: 100vh;
+	margin-bottom: -5em;
+}
+
+.body::after {
+	content: "";
+	display: block;
+	height: 5em;
 }
 
 .container {
@@ -105,7 +118,8 @@ a, a:visited {
 		margin: 0.5em auto;
 	}
 
-	.main-title:hover, .main-title:focus {
+	.main-title:hover,
+	.main-title:focus {
 		filter: opacity(0.8);
 	}
 
@@ -215,7 +229,8 @@ a, a:visited {
 
 @media screen and (min-width: 768px) {
 
-	#nav > label, #navicon {
+	#nav > label,
+	#navicon {
 		display: none;
 	}
 
@@ -241,7 +256,8 @@ a, a:visited {
 		justify-content: space-around;
 	}
 
-	#navlinks a, #navlinks a:visited {
+	#navlinks a,
+	#navlinks a:visited {
 		display: block;
 		height: initial;
 		color: black;
@@ -257,7 +273,8 @@ a, a:visited {
 		border-top: 0
 	}
 
-	#navlinks a:hover, #navlinks a:focus {
+	#navlinks a:hover,
+	#navlinks a:focus {
 		font-size: 1.2em;
 		transition: font-size 0.25s;
 	}
@@ -290,7 +307,8 @@ a, a:visited {
 	z-index: 55;
 }
 
-.vswitch a, .vswitch a:visited {
+.vswitch a,
+.vswitch a:visited {
 	display: inline-block;
 	font-size: 1.250rem;
 	font-family: 'Spectral', serif;
@@ -316,7 +334,8 @@ a, a:visited {
 		z-index: 35;
 	}
 
-	.hswitch:hover, .hswitch:focus {
+	.hswitch:hover,
+	.hswitch:focus {
 		top: 0px;
 	}
 
@@ -331,12 +350,14 @@ a, a:visited {
 		border-radius: 0 0 .4em .4em;
 	}
 
-	.vswitch a, .vswitch a:visited {
+	.vswitch a,
+	.vswitch a:visited {
 		color: white;
 		font-size: 1rem;
 	}
 
-	.vswitch a:hover, .vswitch a:focus {
+	.vswitch a:hover,
+	.vswitch a:focus {
 		opacity: 0.6;
 	}
 
@@ -347,9 +368,11 @@ a, a:visited {
 }
 
 @media screen and (min-width: 992px) {
+
 	.vswitch {
 		box-shadow: 1px -1px 3px rgba(0, 0, 0, 0.5);
 	}
+
 }
 
 /*================================
@@ -459,7 +482,8 @@ a, a:visited {
 	box-shadow: 1px 1px 2px black;
 }
 
-.portfolio img:hover, .portfolio img:focus {
+.portfolio img:hover,
+.portfolio img:focus {
 	box-shadow: 2px 2px 4px black;
 }
 
