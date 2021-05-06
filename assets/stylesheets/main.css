@@ -482,9 +482,33 @@ a, a:visited {
 	box-shadow: 1px 1px 2px black;
 }
 
+.portfolio img:nth-child(2n) {
+	transform: rotate(3deg);
+}
+
+.portfolio img:nth-child(2n + 3) {
+	transform: rotate(-1deg);
+}
+
 .portfolio img:hover,
 .portfolio img:focus {
 	box-shadow: 2px 2px 4px black;
+}
+
+@media screen and (min-width: 768px) {
+
+	.portfolio img {
+		width: 45%;
+	}
+
+}
+
+@media screen and (min-width: 992px) {
+
+	.portfolio img {
+		width: 30%;
+	}
+
 }
 
 #overlay {

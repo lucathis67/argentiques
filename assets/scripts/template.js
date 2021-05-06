@@ -5,7 +5,7 @@ function main() {
 	copyright();
 
 	//allow the opening of individual images on a full screen display
-	displayImage();
+	displayModal();
 }
 
 function copyright() {
@@ -24,7 +24,7 @@ function getTarget(e) {
 	return e.target || e.srcElement;
 }
 
-function displayImage() {
+function displayModal() {
 
 	//creates the different element layers for the full screen views
 	let overlay = document.createElement('div');
