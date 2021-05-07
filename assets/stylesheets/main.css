@@ -472,6 +472,9 @@ a, a:visited {
 }
 
 .portfolio img {
+	position: absolute;
+	top: 0;
+	left: 2em;
 	align-self: center;
 	background-color: white;
 	display: block;
