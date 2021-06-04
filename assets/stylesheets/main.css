@@ -567,7 +567,7 @@ label {
 textarea,
 input {
 	outline: 1px solid lightgrey;
-	caret-color: black;
+	caret-color: lightgrey;
 	opacity: 0.8;
 }
 
