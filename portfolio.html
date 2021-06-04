@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="assets/stylesheets/normalize.css">
 		<link rel="stylesheet" type="text/css" href="assets/stylesheets/main.css">
+		<link rel="stylesheet" type="text/css" href="assets/stylesheets/glightbox.min.css">
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link rel="dns-prefetch" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Ruthie&family=Spectral:ital,wght@0,400;1,300;1,400&display=swap" rel="stylesheet">
@@ -35,17 +36,28 @@
 			</header>
 			<main class="container">
 				<section class="portfolio">
-					<img src="assets/images/capitole.jpg">
-					<!--<img src="assets/images/washington_monument.jpg">-->
-					<img src="assets/images/georgetown.jpg">
-					<img src="assets/images/virginia1.jpg">
-					<img src="assets/images/virginia2.jpg">
+					<a href="assets/images/large/capitole.jpg" class="glightbox">
+						<img src="assets/images/small/capitole.jpg" alt="the US Capitole at dawn">
+					</a>
+					<a href="assets/images/large/washington_monument.jpg" class="glightbox">
+						<img src="assets/images/small/washington_monument.jpg" alt="the Washington Monument">
+					</a>
+					<a href="assets/images/large/georgetown.jpg" class="glightbox">
+						<img src="assets/images/small/georgetown.jpg" alt="historic houses in Georgetown">
+					</a>
+					<a href="assets/images/large/virginia1.jpg" class="glightbox">
+						<img src="assets/images/small/virginia1.jpg" alt="a house in Virginia's countryside">
+					</a>
+					<a href="assets/images/large/virginia2.jpg" class="glightbox">
+						<img src="assets/images/small/virginia2.jpg" alt="a barn in Virginia">
+					</a>
 				</section>
 			</main>
 		</div>
 		<footer class="container">
 			<p id="copyright"> &copy; Argentiques</p>
 		</footer>
+		<script type="text/javascript" src="assets/scripts/glightbox.min.js"></script>
 		<script type="text/javascript" src="assets/scripts/template.js"></script>
 	</body>
 </html>

@@ -465,16 +465,16 @@ a, a:visited {
 =================================*/
 
 .portfolio {
-	margin: 3em auto;
+	margin: 1.5em auto;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
 .portfolio img {
-	position: absolute;
+	/*position: absolute;
 	top: 0;
-	left: 0;
+	left: 0;*/
 	align-self: center;
 	background-color: white;
 	display: block;
@@ -484,7 +484,7 @@ a, a:visited {
 	z-index: 25;
 	box-shadow: 1px 1px 2px black;
 }
-
+/*
 .portfolio img:nth-child(2n) {
 	transform: rotate(3deg);
 }
@@ -492,7 +492,7 @@ a, a:visited {
 .portfolio img:nth-child(2n + 3) {
 	transform: rotate(-1deg);
 }
-
+*/
 .portfolio img:hover,
 .portfolio img:focus {
 	box-shadow: 2px 2px 4px black;
