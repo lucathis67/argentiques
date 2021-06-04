@@ -5,6 +5,7 @@ function main() {
 	copyright();
 
 	//allow the opening of individual images on a full screen display
+	//uses the Glightbox plugin
 	displayModal();
 
 }
