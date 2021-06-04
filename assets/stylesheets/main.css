@@ -567,6 +567,7 @@ label {
 textarea,
 input {
 	outline: 1px solid lightgrey;
+	caret-color: black;
 	opacity: 0.8;
 }
 
@@ -655,7 +656,6 @@ input[type="submit"]:focus {
 	textarea,
 	input {
 		opacity: 0.8;
-		caret-color: black;
 	}
 
 	input[type="submit"] {
