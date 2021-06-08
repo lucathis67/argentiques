@@ -472,25 +472,18 @@ a, a:visited {
 }
 
 .portfolio a {
-	display: block;
+	display: none;
 	align-self: center;
 	margin: 0 auto;
 	z-index: 45;
 }
 
 .portfolio img {
-	/*position: absolute;
-	top: 0;
-	left: 0;*/
 	max-width: 100%;
 	background-color: white;
 	margin: 1% auto;
 	padding: 1%;
 	box-shadow: 1px 1px 2px black;
-}
-
-.portfolio a {
-	display: none;
 }
 
 .portfolio a:first-of-type {
@@ -506,15 +499,6 @@ a, a:visited {
 
 }
 
-/*
-.portfolio img:nth-child(n) {
-	transform: rotate(3deg);
-}
-
-.portfolio img:nth-child(2n + 3) {
-	transform: rotate(-1deg);
-}
-*/
 .portfolio img:hover,
 .portfolio img:focus {
 	box-shadow: 2px 2px 4px black;
@@ -570,7 +554,6 @@ input {
 	caret-color: lightgrey;
 	opacity: 0.8;
 }
-
 
 input,
 label {
