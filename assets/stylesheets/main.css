@@ -24,7 +24,6 @@ body, header, main, footer {
 	position: relative;
 	top: 0;
 	left: 0;
-	overflow-x: hidden;
 }
 
 body {
@@ -388,7 +387,7 @@ a, a:visited {
 	font-size: 1.125rem;
 	font-weight: 300;
 	font-style: italic;
-	color: darkred;
+	color: darkred
 }
 
 .author:hover {
@@ -432,12 +431,11 @@ a, a:visited {
 		font-size: 1.953rem;
 		padding: 0.2em;
 		color: white;
-		background-color: rgba(139, 0, 0, 0.3);
+		background-color: rgba(200, 0, 0, 0.25);
 		border: 0;
 		position: absolute;
 		bottom: 0px;
 		left: 0px;
-		z-index: 4;
 		box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
 	}
 
@@ -447,8 +445,8 @@ a, a:visited {
 	}
 
 	.hero-header {
-		z-index: 25;
-		box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.6);
+		box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.6);
+		z-index: 45;
 	}
 
 }
@@ -514,8 +512,26 @@ a, a:visited {
 	display: none;
 }
 
+.stack1,
+.stack2 {
+	display: block;
+	background-color: white;
+	padding: 0.25%;
+	z-index: 45;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.stack1 {
+	transform: rotate(1deg);
+}
+
+.stack2 {
+	transform: rotate(-0.5deg);
+}
+
 .portfolio img {
 	display: block;
+	transform: rotate(-0.5deg);
 	max-width: 100%;
 	background-color: white;
 	margin: 1% auto;
