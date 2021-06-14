@@ -6,6 +6,7 @@
 html {
 	font-size: 100%;
 	box-sizing: border-box;
+	overscroll-behavior: none;
 }
 
 *,
@@ -34,7 +35,7 @@ body {
 	min-height: 100vh;
 	background-color: snow;
 	color: black;
-}
+	}
 
 footer {
 	padding-bottom: 3em;
@@ -453,6 +454,40 @@ a, a:visited {
 }
 
 /*================================
+	About
+=================================*/
+
+@media screen and (min-width: 768px) {
+
+	.credits {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.left-half {
+		width: 50%;
+		padding-left: 15%;
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+
+	.left-half a {
+		display: block;
+		position: absolute;
+		right: 0;
+	}
+
+	.right-half {
+		width: 50%;
+		padding-right: 15%;
+	}
+
+}
+
+
+
+/*================================
 	Portfolio
 =================================*/
 
@@ -485,7 +520,7 @@ a, a:visited {
 }
 
 .portfolio h2 {
-	color: rgba(139, 0, 0, 0.9);
+	color: black;
 	text-align: center;
 	font-weight: 400;
 	font-size: 1.424rem;
@@ -493,7 +528,7 @@ a, a:visited {
 }
 
 .portfolio p {
-	color: rgba(139, 0, 0, 0.9);
+	color: black;
 	margin: 0;
 	vertical-align: middle;
 	padding: 1rem 0;
@@ -520,6 +555,7 @@ a, a:visited {
 	}
 
 	.portfolio h2 {
+		color: rgba(139, 0, 0, 0.9);
 		font-size: 1.728rem;
 		width: 100%;
 	}
@@ -534,6 +570,7 @@ a, a:visited {
 	.portfolio p {
 		width: 40%;
 		padding: 0 1rem;
+		color: rgba(139, 0, 0, 0.9);
 		border-left: 1px solid rgba(139, 0, 0, 0.8);
 ;
 	}
@@ -562,7 +599,7 @@ a, a:visited {
 	.portfolio p {
 		width: 35%;
 		align-self: center;
-		padding-left: 1rem;
+		padding: 0 0 0 1rem;
 		border: none;
 	}
 
