@@ -193,12 +193,12 @@ a, a:visited {
     border-bottom: 1px solid black;
 }
 
-#navlinks a:first-child {
+#navlinks a:first-of-type {
 	clear: right;
 	border-top: 1px solid black;
 }
 
-#navlinks a:last-child {
+#navlinks a:last-of-type {
 	border-bottom: 0;
 }
 
@@ -456,6 +456,10 @@ a, a:visited {
 /*================================
 	About
 =================================*/
+
+.credits {
+	display: none !important;
+}
 
 @media screen and (min-width: 768px) {
 
