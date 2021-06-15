@@ -460,7 +460,7 @@ a, a:visited {
 =================================*/
 
 .about-page {
-	background-color: rgba(139, 0, 0, 0.7);
+	background-color: rgba(0, 0, 0, 0.9);
 }
 
 .about-page footer,
@@ -470,22 +470,41 @@ a, a:visited {
 }
 
 .about-page #copyright {
-	border-top: 2px solid rgba(255, 255, 255, 1);
+	border-top: 2px solid white;
 }
 
 .about-page #nav {
-	border-top-color: rgba(255, 255, 255, 1);
-	border-bottom-color: rgba(255, 255, 255, 1);
+	background-color: rgba(0, 0, 0, 1);
+}
+
+.about-page #nav > label {
+	background-color: rgba(255, 255, 255, 0);
+}
+
+.about-page .hswitch {
+	color: white;
+}
+
+.about-page .logo {
+	border-bottom-color: white;
 }
 
 .about-page a,
 .about-page a:visited,
 .about-page #navlinks a,
 .about-page #navlinks a:visited {
-	color: rgba(255, 255, 255, 1.0);
+	color: white;
 }
 
+@media screen and (min-width: 768px) {
 
+	.about-page #nav {
+		background-color: rgba(0, 0, 0, 0);
+		border-top-color: white;
+		border-bottom-color: white;
+	}
+
+}
 
 
 /*================================
