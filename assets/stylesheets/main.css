@@ -459,6 +459,34 @@ a, a:visited {
 	About
 =================================*/
 
+.about-page {
+	background-color: rgba(139, 0, 0, 0.7);
+}
+
+.about-page footer,
+.about-page .vswitch {
+	background-color: rgba(0, 0, 0, 0);
+	box-shadow: none;
+}
+
+.about-page #copyright {
+	border-top: 2px solid rgba(255, 255, 255, 1);
+}
+
+.about-page #nav {
+	border-top-color: rgba(255, 255, 255, 1);
+	border-bottom-color: rgba(255, 255, 255, 1);
+}
+
+.about-page a,
+.about-page a:visited,
+.about-page #navlinks a,
+.about-page #navlinks a:visited {
+	color: rgba(255, 255, 255, 1.0);
+}
+
+
+
 
 /*================================
 	Portfolio
