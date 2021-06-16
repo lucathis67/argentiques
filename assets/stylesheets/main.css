@@ -472,6 +472,14 @@ a, a:visited {
 	background-color: rgba(0, 0, 0, 0.95);
 }
 
+.about-page h2 {
+	font-weight: 400;
+	text-align: center;
+	color: white;
+	margin-top: 3rem;
+	margin-bottom: 0;
+}
+
 .about-page #nav {
 	background-color: rgba(0, 0, 0, 0.95);
 }
@@ -501,8 +509,8 @@ a, a:visited {
 }
 
 .about-section {
-	margin-top: 5em;
-	margin-bottom: 5em;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
