@@ -757,6 +757,15 @@ a, a:visited {
 	flex-wrap: wrap;
 	flex-direction: row;
 	justify-content: space-between;
+	margin-top: 3rem;
+}
+
+.contact-page h2 {
+	width: 100%;
+	margin: 0;
+	text-align: center;
+	font-weight: 400;
+	color: white;
 }
 
 .contact-page p {
@@ -785,7 +794,7 @@ a, a:visited {
 	left: 0;
 	display: flex;
 	padding: 0.5%;
-	margin: 0 auto 3em;
+	margin: 0 auto 3rem;
 	background-color: black;
 	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 	z-index: 45;
@@ -804,7 +813,7 @@ a, a:visited {
 
 	.contact-page {
 		width: 85%;
-		margin: 3em auto;
+		margin: 3rem auto;
 	}
 
 	.contact-page p {
@@ -814,7 +823,7 @@ a, a:visited {
 
 	.contact-page div {
 		width: 50%;
-		margin-bottom: 0;
+		margin: 3rem auto;
 	}
 
 }
