@@ -470,7 +470,24 @@ a, a:visited {
 
 .about-page footer {
 	background-color: rgba(0, 0, 0, 0.95);
-	box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.5);
+	box-shadow: 1px -1px 2px 0 rgba(0, 0, 0, 1.0);
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 50;
+}
+
+.about-page footer::after {
+    background-image: url(../images/noise.jpg);
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 50;
+    opacity: 0.08;
+    pointer-events: none;
 }
 
 .about-page h2 {
@@ -585,8 +602,26 @@ a, a:visited {
 
 .portfolio-page footer {
 	background-color: rgba(139, 0, 0, 0.7);
-	box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.5);
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 50;
 }
+
+.portfolio-page footer::after {
+    background-image: url(../images/noise.jpg);
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 50;
+    opacity: 0.08;
+    pointer-events: none;
+}
+
 
 .portfolio-page #copyright {
 	border-top: none;
