@@ -50,7 +50,7 @@ body::after {
 	left: 0px;
 	top: 0px;
 	z-index: 40;
-	opacity: 0.08;
+	opacity: 0.1;
 	pointer-events: none;
 }
 
@@ -164,7 +164,7 @@ a, a:visited {
 	left: 0px;
 	top: 0px;
 	z-index: 40;
-	opacity: 0.08;
+	opacity: 0.1;
 	pointer-events: none;
 }
 
@@ -486,7 +486,7 @@ a, a:visited {
     left: 0px;
     top: 0px;
     z-index: 50;
-    opacity: 0.08;
+    opacity: 0.1;
     pointer-events: none;
 }
 
@@ -618,7 +618,7 @@ a, a:visited {
     left: 0px;
     top: 0px;
     z-index: 50;
-    opacity: 0.08;
+    opacity: 0.1;
     pointer-events: none;
 }
 
