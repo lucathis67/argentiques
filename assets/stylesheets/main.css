@@ -35,7 +35,7 @@ body {
 	min-height: 100vh;
 	background-color: snow;
 	color: black;
-	}
+}
 
 footer {
 	padding-bottom: 3em;
@@ -457,7 +457,7 @@ a, a:visited {
 }
 
 /*================================
-	About
+	About Page
 =================================*/
 
 .about-page {
@@ -597,7 +597,7 @@ a, a:visited {
 }
 
 /*================================
-	Portfolio
+	Portfolio Page
 =================================*/
 
 .portfolio-page footer {
@@ -784,7 +784,10 @@ a, a:visited {
 }
 
 /*================================
-	Contact
+	Contact Page
+
+	//main colour rules inherited from the About Page
+
 =================================*/
 
 .contact-page {
