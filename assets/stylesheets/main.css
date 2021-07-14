@@ -661,6 +661,14 @@ figure {
 	color: white;
 }
 
+.about-page .photo-credits a {
+	color: rgba(227, 167, 54, 1.0);
+}
+
+.about-page .photo-credits a:hover {
+	color: rgba(227, 167, 54, 0.7);
+}
+
 .about-page #navlinks a.active {
 	color: white;
 }
