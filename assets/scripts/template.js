@@ -6,7 +6,7 @@ function main() {
 
 	//allow the opening of individual images on a full screen display
 	//uses the Glightbox plugin
-	displayModal();
+	GLightbox();
 
 }
 
@@ -17,21 +17,6 @@ function copyright() {
 	let copyrightMessage = copyright.textContent;
 	copyrightMessage += ` ${thisYear}`;
 	copyright.textContent = copyrightMessage;
-}
-
-function displayModal() {
-
-	const lightbox = GLightbox();
-	lightbox.on('open', (target) => {
-	    console.log('lightbox opened');
-	});
-	const lightboxDescription = GLightbox({
-	    selector: '.glightbox2'
-	});
-	const lightboxVideo = GLightbox({
-	    selector: '.glightbox3'
-	});
-
 }
 
 main();
