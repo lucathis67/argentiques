@@ -12,11 +12,7 @@ function main() {
 
 function copyright() {
 	const thisDate = new Date();
-	const thisYear = thisDate.getFullYear();
-	const copyright = document.getElementById('copyright');
-	let copyrightMessage = copyright.textContent;
-	copyrightMessage += ` ${thisYear}`;
-	copyright.textContent = copyrightMessage;
+	document.getElementById('copyright').textContent += ` ${thisDate.getFullYear()}`;
 }
 
 main();
