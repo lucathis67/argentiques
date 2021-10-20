@@ -1,0 +1,345 @@
+*::selection {
+	background-color: black;
+	color: white;
+}
+
+body {
+	background-color: snow;
+	color: black;
+}
+
+.main-title {
+	color: black;
+}
+
+.logo {
+	border-bottom: 2px solid black;
+}
+
+.copyright {
+	color: black;
+	border-top: 2px solid black;
+}
+
+.nav {
+	background-color: snow;
+	box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 1.0);
+}
+
+.nav > label {
+	color: white;
+    background: rgba(139, 0, 0, 0.7);
+    box-shadow: -1px 0 2px 0 rgba(0, 0, 0, 1.0);
+}
+
+.navlinks a {
+	color: black;
+	border-bottom: 1px solid black;
+}
+
+.navlinks a:first-of-type {
+	border-top: 1px solid black;
+}
+
+.navlinks a:last-of-type {
+	border-bottom: 0;
+}
+
+.navlinks a.active {
+	color: darkred;
+}
+
+.navicon:checked ~ label {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.navicon:active ~ label {
+	box-shadow: 0 0 2px 0 black;
+}
+
+
+.hswitch {
+	color: black;
+}
+
+.vswitch a,
+.vswitch a:visited {
+	color: black;
+}
+
+.vswitch a.active {
+	color: darkred;
+}
+
+.content figcaption {
+	color: black;
+}
+
+.author {
+	color: darkred
+}
+
+.author:hover {
+	opacity: 0.7;
+}
+
+.about-page {
+	background-color: rgba(5, 5, 10, 0.95);
+}
+
+.about-page .logo {
+	border-bottom-color: white;
+}
+
+.about-page .photo-credits {
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.about-page footer {
+	background-color: rgba(3, 3, 5, 1);
+	box-shadow: 1px -1px 2px 0 rgba(3, 3, 5, 1.0);
+}
+
+.about-page h2 {
+	color: white;
+	margin-top: 3rem;
+	margin-bottom: 0;
+}
+
+.about-page .nav {
+	background-color: rgb(0, 0, 0);
+}
+
+.about-page .nav > label {
+	background-color: rgba(255, 255, 255, 0);
+}
+
+.about-page .copyright {
+	border-top: none;
+	color: white;
+}
+
+.about-page .hswitch {
+	color: white;
+}
+
+.about-page a,
+.about-page a:visited,
+.about-page .navlinks a,
+.about-page .navlinks a:visited {
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.about-page .main-title a,
+.about-page .main-title a:visited {
+	color: white;
+}
+
+.about-page .photo-credits a {
+	color: rgba(247, 137, 54, 1);
+}
+
+.about-page .photo-credits a:hover {
+	color: rgba(247, 137, 54, 0.7);
+}
+
+.about-page .navlinks a.active {
+	color: rgba(247, 137, 54, 1);
+}
+
+.about-description {
+	color: white;
+}
+
+.portfolio-page footer {
+	background-color: rgba(139, 0, 0, 0.7);
+	box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.portfolio-page .copyright {
+	border-top: none;
+	color: white;
+}
+
+.stack1,
+.stack2 {
+	background-color: white;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.portfolio:nth-child(even) {
+	background-color: rgba(139, 0, 0, 0.7);
+}
+
+.portfolio img {
+	background-color: white;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.portfolio h2 {
+	color: black;
+}
+
+.portfolio p {
+	color: black;
+}
+
+.portfolio:nth-child(even) h2,
+.portfolio:nth-child(even) p {
+	color: white;
+}
+
+.contact-page h2 {
+	color: white;
+}
+
+.contact-page p {
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.contact-page a,
+.contact-page a:visited {
+	color: white;
+}
+
+.contact-page a:hover {
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.contact-page div {
+	background-color: black;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+@media screen and (min-width:  768px) {
+	.main-title:hover,
+	.main-title:focus {
+		filter: opacity(0.8);
+	}
+
+	.logo {
+		border-bottom: 0;
+	}
+
+	.nav {
+		background-color: rgba(255, 255, 255, 0);
+		background-image: none;
+		border-top: 2px solid black;
+		border-bottom: 1px solid black;
+		box-shadow: none;
+	}
+
+	.navlinks a,
+	.navlinks a:visited {
+		color: black;
+		border-top: 0;
+		border-bottom: 0;
+	}
+
+	.navlinks a:first-child {
+		border-top: 0
+	}
+
+	.navlinks a.active {
+		color: darkred;
+	}
+
+	.navlinks a.active:hover {
+		opacity: 0.7;
+	}
+
+	.vswitch {
+		color: white;
+		background-color: rgba(139, 0, 0, 0.7);
+	}
+
+	.vswitch a,
+	.vswitch a:visited {
+		color: white;
+	}
+
+	.vswitch a:hover,
+	.vswitch a:focus {
+		opacity: 0.6;
+	}
+
+	.vswitch a.active {
+		color: white;
+	}
+
+	.title {
+		color: white;
+		background-color: rgba(139, 0, 0, 0.25);
+		border: 0;
+		box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.3);
+	}
+
+	.author {
+		color: white;
+	}
+
+	.hero-header {
+		box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.3);
+	}
+
+	.content img {
+		box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.3);
+	}
+
+	.content img:hover {
+		box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+	}
+
+	.right-hand {
+		border-left: 1px solid rgba(0, 0, 0, 0.8);
+	}
+
+	figure img {
+		background-color: white;
+	}
+
+	.about-page .vswitch {
+		background-color: rgba(0, 0, 0, 0.95);
+	}
+
+	.about-page .nav {
+		background-color: rgba(0, 0, 0, 0);
+		border-top-color: rgba(255, 255, 255, 0.8);
+		border-bottom-color: rgba(255, 255, 255, 0.8);
+	}
+
+	.portfolio h2 {
+		color: rgba(139, 0, 0, 0.9);
+	}
+
+	.portfolio p {
+		color: rgba(139, 0, 0, 0.9);
+		border-left: 1px solid rgba(139, 0, 0, 0.8);
+	}
+
+	.portfolio:nth-child(even) p {
+		border-left-color: rgba(255, 255, 255, 0.8);
+	}
+}
+
+@media screen and (min-width: 992px) {
+
+	.vswitch {
+		box-shadow: 1px -1px 3px rgba(0, 0, 0, 0.5);
+	}
+
+	.portfolio p {
+		border: none;
+	}
+
+	.portfolio img:hover,
+	.portfolio img:focus {
+		box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+	}
+
+	.portfolio:nth-child(even) img:hover,
+	.portfolio:nth-child(even) img:focus {
+		box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+	}
+}
+
