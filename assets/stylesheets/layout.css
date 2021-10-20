@@ -21,9 +21,6 @@ body {
 
 footer {
 	padding-bottom: 3em;
-	position: absolute;
-	top: 0;
-	left: 0;
 	z-index: 50;
 }
 
