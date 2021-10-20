@@ -523,7 +523,7 @@ figure {
 	flex-wrap: wrap;
 	flex-direction: row;
 	justify-content: space-between;
-	margin-top: 3rem;
+	margin-top: 0;
 }
 
 .contact-page h2 {
@@ -564,7 +564,7 @@ figure {
 
 	.contact-page {
 		width: 85%;
-		margin: 3rem auto;
+		margin: 0 auto 3rem;
 	}
 
 	.contact-page p {
