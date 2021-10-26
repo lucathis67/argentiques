@@ -159,8 +159,10 @@ footer {
 
 	.hswitch {
 		position: absolute;
+		top: -1.5em;
 		right: 0;
 		left: initial;
+		transition: 0.3s ease-in;
 		width: 8rem;
 		height: 8rem;
 		padding-top: 0;
@@ -171,6 +173,7 @@ footer {
 	.hswitch:hover,
 	.hswitch:focus {
 		top: 0px;
+		transition: 0.3s ease-out;
 	}
 
 	.vswitch {	
@@ -289,8 +292,6 @@ figure {
 		top: 0;
 		left: 0;
 	}
-
-
 
 	figure img {
 		width: 95%;
@@ -453,7 +454,6 @@ figure {
 	vertical-align: middle;
 	padding: 1rem 0;
 }
-
 
 .portfolio a:first-of-type {
 	display: block;
