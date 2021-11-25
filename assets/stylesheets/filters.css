@@ -1,0 +1,38 @@
+body::after,
+.nav:after,
+.album div::after,
+.album img::after,
+.about-page footer::after,
+.portfolio-page footer::after {
+	background-image: url(../images/noise.jpg);
+	content: "";
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 40;
+	opacity: 0.05;
+	pointer-events: none;
+}
+
+.about-page footer::after,
+.portfolio-page footer::after {
+	z-index: 55;
+	opacity: 0.03;
+}
+
+@media screen and (min-width: 768px) {
+	figure > a::after {
+		background-image: url(../images/noise.jpg);
+		content: "";
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		z-index: 47;
+		opacity: 0.025;
+		pointer-events: none;
+	}
+}
