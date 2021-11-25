@@ -159,21 +159,14 @@ footer {
 
 	.hswitch {
 		position: absolute;
-		top: -1.5em;
+		top: 0;
 		right: 0;
 		left: initial;
-		transition: 0.3s ease-in;
 		width: 8rem;
 		height: 8rem;
 		padding-top: 0;
 		border-right: 0;
 		z-index: 35;
-	}
-
-	.hswitch:hover,
-	.hswitch:focus {
-		top: 0px;
-		transition: 0.3s ease-out;
 	}
 
 	.vswitch {	
@@ -318,7 +311,7 @@ figure {
 	}
 
 	.content figure {
-		margin: 0.5em auto -3rem;
+		margin: 0.5em auto; -3rem;
 	}
 
 	figure img {
@@ -366,7 +359,7 @@ figure {
 
 .about-image img {
 	width: 100%;
-	padding: 0.8%;
+	padding: 2px;
 	background-color: rgba(0, 0, 0, 0.7);
 	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
 	position: relative;
@@ -546,7 +539,7 @@ figure {
 	top: 0;
 	left: 0;
 	display: flex;
-	padding: 0.5%;
+	padding: 2px;
 	margin: 0 auto 3rem;
 	z-index: 45;
 }
