@@ -8,6 +8,9 @@ function main() {
 	//uses the Glightbox plugin
 	GLightbox();
 
+	// highlight link to current page in nav
+	youAreHere();
+
 }
 
 function copyright() {
@@ -15,5 +18,16 @@ function copyright() {
 	document.getElementsByClassName('copyright')[0].textContent += ` ${thisDate.getFullYear()}`;
 }
 
-main();
+function youAreHere() {
+	const thisPage = document.getElementsByTagName('title')[0].textContent.split(' | ')[0];
+	for (const a of document.querySelectorAll(".navlinks a")) {
+	  if (a.textContent.includes(thisPage)) {
+	    console.log("CURRENT PAGE: " + a.textContent)
+	    a.setAttribute('class', 'active')
+	  } else if (a.hasAttribute('class', 'active')) {
+	  	a.removeAttribute('class', 'active')
+	  }
+	}
+}
 
+main();
