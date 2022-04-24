@@ -21,12 +21,12 @@ function copyright() {
 function youAreHere() {
 	const thisPage = document.getElementsByTagName('title')[0].textContent.split(' | ')[0];
 	for (const a of document.querySelectorAll(".navlinks a")) {
-	  if (a.textContent.includes(thisPage)) {
-	    console.log("CURRENT PAGE: " + a.textContent)
-	    a.setAttribute('class', 'active')
-	  } else if (a.hasAttribute('class', 'active')) {
-	  	a.removeAttribute('class', 'active')
-	  }
+	  	if (a.textContent.includes(thisPage)) {
+	    	console.log("CURRENT PAGE: " + a.textContent)
+	    	a.setAttribute('class', 'active')
+	  	} else if (a.hasAttribute('class', 'active')) {
+	  		a.removeAttribute('class', 'active')
+	  	}
 	}
 }
 
